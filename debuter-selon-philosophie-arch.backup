@@ -1,0 +1,48 @@
+# Débuter en informatique selon la philosophie arch
+
+Auteur: Anthony JR. Le Goff
+
+Date: Novembre 2021
+
+Licence:
+
+Copyright (C)  2021  ANTHONY JR. LE GOFF.
+
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the **GNU Free Documentation License, Version 1.3**
+or any later version published by the Free Software Foundation;
+with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+A copy of the license is included in the section entitled "[GNU
+Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)".
+
+## 1. Pourquoi ce livre?
+
+On peut ce demander à quoi cela sert d'écrire. Je dirais pour transmettre du savoir. Mais on peut élaborer une pensée, et intellectualiser à l'écrit pour libérer des concepts et forcer à la réflexion. Ce livre n'est pas encore un livre pour débuter en informatique sans une réflexion globale d'un éco-système, son fonctionnement et son architecture en traduisant un cas pratique. C'est un cadre éducatif pour la vulgarisation de l'informatique.
+
+Mon sentiment est de partager ce que j'ai appris et les bonnes pratiques techniques de l'utilisation du système sous GNU/Linux. Ce qui équivaut à des heures de travail à rechercher de la documentation, regrouper des sources d'information et analyser pour une implémentation. Ce livre est donc une synthèse de mes connaissances pour établir une forme de *handbook*. 
+
+Ce  livre s'adresse à tous les curieux, qui ont entendu parler de *Linux* et voudrait apprendre l'informatique par la pratique. J'y fait une approche *hacker* que je vais m'éfforcer de définir. Ainsi ce livre ce veut d'être un indispensable pour débuter dans le hacking avec les meilleurs outils mis à la disposition. L'intérêt est de faciliter la mémorisation de nombreux concept informatique et d'accélérer la courbe d'apprentissage. A la fin de ce livre, l'utilisateur aura clé en main un système à jour selon les dernières technologies du marché pour:
+
+* Faire de la recherche en sécurité informatique
+* Développer et concevoir des applications de logiciel libre
+* S'initier au *hack* dans son ensemble avec le matériel libre
+* Collaborer, s'initier à des projets open source
+* S'informer et collecter de l'information
+* Protéger son système de l'intrusion, corruption de fichier et au droit à la vie privée
+
+En clair donner les meilleurs outils pour appartenir à une communauté, rendre accessible l'informatique. Je ne pouvais pas élaborer une page de ligne de commande, car je veux que le lecteur commence par étudier la ligne de commande en expliquant dans le détail. On n'apprend pas l'informatique en restant sur une interface graphique, c'est une aide qui occulte tous les principes sous-adjacent. 
+
+L'idée vient du mot anglais *from scratch* ou une façon de dire à construire soi-même. Peut-être que vous avez eu des rumeurs d'utilisation de bureau ultra-personnalisable sous GNU/Linux mais que vous avez aucune idée comment vous y prendre même si l'idée de customiser le système selon vos besoins vous attire.
+
+Ce livre appartient à la philosophie de la sous-culture libre. Il est donc accessible selon la licence défini. Le logiciel utilisé sous GNU/Linux pour son écriture est Ghostwriter pour l'édition en Markdown. C'est le format de transition facilicitant l'exportation en HTML mais également en PDF ou EPUB. Je recherche à publier une version en ligne via des outils open source tel que Gitbook.Ce livre ce veut intéractif avec des liens internet pour approfondir un sujet ou l'utilisation de référence d'ou le format utilisé. L'utilisation de Git devient un standard dans le milieu informatique que je vais développer. Dans ce sens je veux mettre à disposition mes écrits que cela soit pour la réflexion et la pratique de l'informatique dans la culture libre. C'est un travail qui devrait permettre de convertir de nouveaux aspirants *hacker* selon la tradition depuis les débuts de l'informatique et une philosophie de libre partage de l'information.
+
+J'espère bien gagner en influence et réputation pour devenir une référence de formation aux outils de hacking du débutant en informatique. Cela me convient plus que faire de l'argent sur le livre, la connaissance doit être libre d'accès en particulier les outils de création informatique dans l'optique de produire du savoir, ajouter de la valeur et innover pour faire progrèsser la communauté. 
+
+Publier le livre chez un éditeur commercial aurait été contre-productif car je restreins le savoir et limite la diffusion à un support. La plupart des pirates informatiques ne payent pas de livre, dans le milieu il existe des moyens de trouver des PDF ou de la documentation en ligne gratuitement et par des torrents.
+
+## 2. Préambule libriste
+
+Il m'était impossible de ne pas introduire l'objet de l'étude de l'informatique par un mouvement de fond tel que le logiciel libre. Steve Ballmer(ex PDG Microsoft) disait du logiciel libre que c'était un cancer pour la propriété intellectuelle. Ce que l'on entend par propriété intellectuelle est le brevet pour une invention. Ce qui permet de rémunérer les inventeurs et d'accéder à la paternité d'une nouvelle idée mise en concept à bus de faire du profit commercial.C'est donc une manière d'éviter de ce faire copier et donc voler son travail. Personne n'aime le plagiat, qui représente un travail médiocre en qualité. Dans ce sens l'arrivée des logiciels informatiques allaient remettre en cause les pratiques dominantes sur les oeuvres de l'esprit. En particulier l'étude et la redistribution du code source. Un logiciel disposant du code source peut-être copié à l'infini ne vous dépouillant pas de votre travail ayant vous même une copie du code source. L'étude du code source permet donc d'améliorer les fonctionnalités et d'en faire des dérivées *fork*, de l'adapter sur plusieurs matériels mais également d'en faire un travail d'audit de recherche de faille de sécurité qui pourrait compromettre son utilisation. Ces quelques principes sur une économie du partage n'est pas venu instinctivement car des pratiques pour s'enrichir sur le dos du modèle capitaliste vont apparaitre fin des années 70. Le code ouvert en particulier par l'utilisation des universitaires se fermera par l'arrivée commerciale pour le grand public du micro-ordinateur dont le système d'exploitation DOS. Quelques projets vont rentrer en résistance dont le projet GNU de Richard Stallman en mémoire de l'esprit hacker des premiers jours pour faire un dérivée de système d'exploitation UNIX qui serait libre. On peu dire que Richard Stallman est le premier libriste en définissant le logiciel libre. Une véritable [bataille du libre][1] va donc commencer marquant l'histoire de l'informatique.
+
+[1]:https://www.labatailledulibre.org/ "La bataille du libre"
+
