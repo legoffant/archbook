@@ -232,11 +232,65 @@ En résumé, vous n'êtes pas seul, ce poser des questions est le début de l'av
 
 ## 8. Ce former à l'informatique sur le web
 
-Cybrairy, Coursera, Udemy, Khan Academy, The Odin Project,
-Open Source University (OSSU)
-teach yourself computer science.
+Dans ce livre je traite de la formation en informatique, et je me suis dis que cela serait bien que de faire un chapitre sur les ressources sur internet en accès libre, car je crois que l'éducation devrait être accessible à tous et sans payer le prix fort comme les outils de création aidant les processus d'innovation. Ce livre aborde en particulier le sujet de la création du système d'exploitation Arch Linux et les outils de développement pour créer du contenu en particulier des logiciels libres. La suite est d'introduire des cours de programmation, approfondir des sujets en informatique ou encore faire du webdev (développement web). Quelques sites qui vont bien:
+
+* **Khan Academy** a une section informatique, c'est un site généraliste pour l'apprentissage scolaire et la science. On y trouve des cours intéressant sur l'HTML, le Javascript ainsi que la cryptographie.
+* **Cybrary** est le site de la formation IT et cybersécurité pour faire une carrière professionnelle. On y retrouve des cours sur les réseaux, le pentesting, linux etc.
+* **Coursera** la plateforme de MOOC largement adopté par la communauté.
+* **The Odin Project** La philosophie du projet est de rendre accessible le développement web et l'informatique à travers des cours hors des prix d'aller à l'université ou de bootcamp comme formation intensive. Au programme du HTML, CSS, Javascript et l'apprentissage de Ruby pour maitriser le framework *Ruby On Rails*.
+* **MIT OpenCourseWare** L'arrivée des MOOCs sur internet depuis la décennie 2010 voit l'accès à l'éducation non plus restreint aux amphithéatres des grandes écoles. Ainsi le MIT a mis en ligne ces cours dans plusieurs domaines dont l'informatique.
+* **OSSU, Open Source University** est une initiative sur Github pour les autodidactes en informatique regroupant par catégories tous les pré-requis pour la formation universitaire en informatique en libre accès. Cela traite de programmation, mathématiques, base de données, architecture logicielle, langages et des specialisations en cybersécurité ou intelligence artificielle.
+* **Teach Yourself computer science** est une liste des meilleurs livres pour autodidacte pour l'apprentissage de l'informatique de la littérature anglaise.
+* **OpenClassRooms** Le site français de formation en informatique avec des cours gratuits, référence depuis plusieurs années, a également publié des bouquins sur l'apprentissage de la programmation comme du Python, C++,C.
+
 
 ## 9. Ce que dit la loi
+
+Un sujet qui divise les hackers en catégorie, c'est bien l'éthique ainsi que la morale de produire un hack. La légalité n'est pas toujours légitime. Il est parfois nécessaire d'agir dans l'ombre par idéologie mais également pour du profit. Le monde n'est pas manichéen ou il existe les bons et les méchants. On navigue autour d'un spectre ou en fonction de la situation parfois on peut excuser la personne abordant une jurisprudence. Chacun assume ces responsabilités, nous ne vivons pas avec les mêmes moyen et personnellement une personne vivant dans la précarité qui cherche à faire du profit en hackant des organisations n'est pas forcément condamnable moralement, car chacun a le droit à un confort de vie meilleur, et tous les moyens sont bon en particulier l'escaladation de privilège dans la société. 
+
+Le capitalisme a pour but d'enrichir les individus en faisant du profit, malgré cela la pauvreté existe qui est source de cybercriminalité, blamez la faille de sécurité que le hacker qui l'exploite. Celui-ci fait preuve de curiosité et de créativité pour utiliser le système en testant des limites. Malgrez cela la loi qui régule la société met un frein aux dérives les plus extrèmes pour ne pas porter préjudice aux autres et empieter sur les libertés de chacun. Comme dernièrement le montre l'affaire très médiatique de Julian Assange, porte parole majeur du mouvement nous pouvons prendre le risque de finir en prison pas seulement pour du vol d'argent mais pour la libre circulation de l'information qui condamne des crimes. Cet hactivisme est louable, c'est une leçon de courage contre le système et en particulier les documents classifiés des Etats rendant opaque la gouvernance des nations voir des entreprises pour des intérêts commerciaux ou technologiques. On voit alors les limites de la répression pour sauvegarder un système. Il est donc nécessaire de faire un rappel à la loi française sur les risques que prennent les hackers. La prison est une mesure de dissuasion censé combattre le cybercrime mais nous pouvons être dur au mal, ou la solitude d'une cellule n'est qu'un passage éphémère de la vie. La peur de l'enfermement est pour les faibles d'esprit, bien des recherches ont été faite au-delà des lois avec parfois des découvertes en science. La recherche du profit n'étant pas condamnable dans un monde ou nos libertés sont conditionnés par la possession de bien permettant le logement, le transport, l'alimentation.
+
+Ce que dit les textes de loi relatif au piratage informatique:
+
+**Loi informatique et libertés**
+Il s’agit de la principale loi relative à la protection des informations privées des utilisateurs dans les systèmes informatiques, même si la loi est également applicable pour des fichiers non informatisés. Elle protège les personnes physiques et la circulation des informations les concernant.
+
+La loi informatique et libertés est datée du 6 janvier 1978 et a été mise à jour en 2004. Elle définit les principes à respecter lors de la collecte, du traitement et de la conservation des données personnelles. Cette loi assure la protection de la vie privée des personnes dans le cadre des systèmes d’information.
+
+Elle définit les données susceptibles d'être collectés et celle qui sont interdites à la collecte, par exemple les information relatives aux origines ethniques, à l'appartenance religieuse... sauf accord des personnes concernées.
+
+La loi s'assure de la bonne utilisation des informations (conformes au but de la collecte) et définit les droits des utilisateurs quant aux données les concernant : droit d'accès, d'opposition, de rectification et de suppression.
+
+C’est aussi dans le cadre de cette loi qu’a été instaurée la première autorité administrative indépendante : la CNIL.
+
+
+**Loi Godfrain**
+Cette loi du 5 janvier 1988 est la première loi instaurée contre le piratage informatique. Elle prévoit un cadre pénal pour l'intrusion sans autorisation dans un système de traitement automatisé de données (STAD) : cela peut être un ordinateur, un réseau téléphonique, un serveur...
+
+Elle prévoit ainsi un certain nombre de sanctions en cas d'intrusion dans ce type de système sans autorisation. Ces sanctions seront plus ou moins lourdes en fonction des dommages causés dans les systèmes, du caractère volontaire ou non de l'infraction ou encore du fait que l'infraction soit commise seul ou en bande organisée.
+
+Le **Code pénal** (articles 323-1 à 323-8) sanctionne la cybercriminalité. Pour avoir accédé frauduleusement dans un traitement automatisé des données, une personne peut être punie de 2 ans d'emprisonnement et de 60.000 euros d'amende. En cas d'altération grave du système piraté, la peine est alors portée à 3 ans d'emprisonnement et 100.000 euros d'amende. Quand le système de l'Etat et ses données sont piratés, la peine est de 5 ans d'emprisonnement et 150.000 euros d'amende. Si le traitement des données piraté est un traitement automatisé de données à caractère personnel mis en œuvre par l'État, la peine peut aller jusqu'à 7 ans de prison et 300.000 euros d'amende. La personne qui introduit frauduleusement des données dans un système de traitement automatisé encourt :
+
+* jusqu'à 5 ans de prison et 150.000 euros d'amende ;
+* 7 ans et 300.000 euros s'il s'agit d'un traitement automatisé de données à caractère personnel mis en œuvre par l'État.
+
+Outre ces peines, les personnes physiques qui commettent ces infractions pénales encourent des peines complémentaires :
+
+* interdiction des droits civiques,
+* interdiction d'exercer une fonction publique pour cinq années,
+* exclusion des marchés publics pour la même durée,
+* interdiction d'émettre des chèques pour la même durée,
+* confiscation du matériel informatique, etc.
+
+En ce qui concerne la protection d'une découverte d'une faille informatique sur un site web, le texte de loi dit:
+
+C'est donc l'article 47 de la loi du 7 octobre 2016 qui prévoit que le code de la défense soit complété par un article L. 2321-4 ainsi rédigé :
+
+« Art. L. 2321-4.-Pour les besoins de la sécurité des systèmes d'information, l'obligation prévue à l'article 40 du code de procédure pénale n'est pas applicable à l'égard d'une personne de bonne foi qui transmet à la seule autorité nationale de sécurité des systèmes d'information une information sur l'existence d'une vulnérabilité concernant la sécurité d'un système de traitement automatisé de données. 
+« L'autorité préserve la confidentialité de l'identité de la personne à l'origine de la transmission ainsi que des conditions dans lesquelles celle-ci a été effectuée. 
+« L'autorité peut procéder aux opérations techniques strictement nécessaires à la caractérisation du risque ou de la menace mentionnés au premier alinéa du présent article aux fins d'avertir l'hébergeur, l'opérateur ou le responsable du système d'information. »
+
+La protection des citoyens détecteurs de faille informatique, est donc assurée par cette nouvelle disposition, afin de les inciter à révéler ces failles à l’Agence nationale pour la sécurité des systèmes d’information, sans encourir de risque pénal pour cette action.
 
 ## 10. Keep it simple, stupid
 
