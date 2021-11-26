@@ -285,7 +285,7 @@ pacman -Syu
 Pacman Keyring est un outil pour synchroniser les clés PGP qui sont signées entres les développeurs, un outil
 pour faire confiance aux dépôts et paquets téléchargés.
 ```
-pacman-key –init
+pacman-key –-init
 ```
 
 #### Modifier la liste des mirroirs des dépôts
@@ -293,7 +293,6 @@ Ici nous allons rechercher les dépôts ou la vitesse de téléchargement est op
 défaut une douzaine de miroirs, pour les mises à jours importantes utilisant le maximum de la capacité de
 téléchargement réduit considérablement le temps d'attente. Installation de reflector
 ```
-pacman -S reflector
 reflector --verbose --country 'France' -l 12 -p https --sort rate --save /etc/pacman.d/mirrorlist
 ```
 
@@ -333,12 +332,12 @@ alsactl store
 ```
 **Installation driver graphique, clavier, touchpad, openGL**
 ```
-xf86-video-intel mesa-libgl xf86-input-libinput
+sudo pacman -S xf86-video-intel mesa-libgl xf86-input-libinput
 ```
 
 **Installation du serveur X.Org**
 ```
-sudo pacman -S xorg-server xorg-xinit xorg-server-utils xorg-twm xorg-xclock
+sudo pacman -S xorg-server xorg-xinit xorg-twm xorg-xclock
 xterm
 ```
 Modification de la configuration du clavier sous Xorg
@@ -352,7 +351,7 @@ Section "InputClass"
   Driver "evdev"
 EndSection
 ```
-Lancement du serveur X
+Reboot & Lancement du serveur X
 ```
 startx
 ```
