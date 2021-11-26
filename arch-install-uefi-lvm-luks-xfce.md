@@ -107,7 +107,7 @@ Vérifier les partitions avec `lsblk -l`
 
 #### Installation du système de base
 ```
-pacstrap /mnt base base-devel pacman-contrib linux-firmware lvm2 cryptsetup dhcpcd vim nano git man-db man-pages openssh zip p7zip unzip tar htop rsync tmux bash-completion wget pciutils lshw syslog-ng reflector iwd intel-ucode 
+pacstrap /mnt linux base base-devel pacman-contrib linux-firmware lvm2 cryptsetup dhcpcd vim nano git man-db man-pages openssh zip p7zip unzip tar htop rsync tmux bash-completion wget pciutils lshw syslog-ng reflector iwd intel-ucode 
 ```
 
 #### Generation et édition du fichier de la table des partitions
