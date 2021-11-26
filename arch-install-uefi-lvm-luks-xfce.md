@@ -229,7 +229,7 @@ cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
 Modification du fichier de configuration grub, appel de la partition root chiffrée
 ```
 nano /etc/default/grub
-GRUB_CMDLINE_LINUX="cryptdevice=/dev/vglvm/root"
+GRUB_CMDLINE_LINUX="cryptdevice=/dev/vglvm/root:root"
 ```
 ```
 grub-mkconfig -o /boot/grub/grub.cfg
