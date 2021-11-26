@@ -118,7 +118,7 @@ nano /mnt/etc/fstab
 ```
 /dev/mapper/root / ext4 defaults,noatime 0 1
 /dev/sda2 /boot ext2 defaults,noatime 0 2
-#/dev/mapper/home /home ext4 defaults,noatime 0 2
+#/dev/mapper/home /home ext4 rw,noatime 0 2
 #/dev/mapper/tmp /tmp tmpfs nodev,nosuid 0 0
 #/dev/mapper/swap none swap sw 0 0
 ```
