@@ -1,4 +1,5 @@
-# Débuter en informatique selon la philosophie arch
+# Hacker industrie
+**Recettes de mise en production informatique**
 
 Auteur: Anthony JR. Le Goff "Trivial"
 
@@ -21,9 +22,9 @@ Contact email: triviality-lga@protonmail.com pour toutes questions relatives au 
 
 On peut ce demander à quoi cela sert d'écrire. Je dirais pour transmettre du savoir. Mais on peut élaborer une pensée, et intellectualiser à l'écrit pour libérer des concepts et forcer à la réflexion. Ce livre n'est pas encore un livre pour débuter en informatique sans une réflexion globale d'un éco-système, son fonctionnement et son architecture en traduisant un cas pratique. C'est un cadre éducatif pour la vulgarisation de l'informatique.
 
-Mon sentiment est de partager ce que j'ai appris et les bonnes pratiques techniques de l'utilisation du système sous GNU/Linux. Ce qui équivaut à des heures de travail à rechercher de la documentation, regrouper des sources d'information et analyser pour une implémentation. Ce livre est donc une synthèse de mes connaissances pour établir une forme de *handbook*. 
+Mon sentiment est de partager ce que j'ai appris et les bonnes pratiques techniques de l'utilisation du système sous GNU/Linux. Ce qui équivaut à des heures de travail à rechercher de la documentation, regrouper des sources d'information et analyser pour une implémentation. Ce livre est donc une synthèse de mes connaissances pour établir une forme de *handbook*. L'intérêt et de vous faire gagner du temps à configurer une machine de travail sécurisée utilisant des logiciels libres, disponibles avec les meilleurs outils et technologies de développement pour être productif. Dans ce sens j'attache une importance à la production de savoir libre pour la communauté.
 
-Ce  livre s'adresse à tous les curieux, qui ont entendu parler de *Linux* et voudrait apprendre l'informatique par la pratique. J'y fait une approche *hacker* que je vais m'éfforcer de définir. Ainsi ce livre ce veut d'être un indispensable pour débuter dans le hacking avec les meilleurs outils mis à la disposition. L'intérêt est de faciliter la mémorisation de nombreux concept informatique et d'accélérer la courbe d'apprentissage. A la fin de ce livre, l'utilisateur aura clé en main un système à jour selon les dernières technologies du marché pour:
+Ce  livre s'adresse à tous les curieux, qui ont entendu parler de *Linux* et voudrait apprendre l'informatique par la pratique. J'y fait une approche *hacker* que je vais m'éfforcer de définir. Ainsi ce livre ce veut d'être un indispensable pour débuter dans le hacking. En but de faciliter la mémorisation de nombreux concept informatique et d'accélérer la courbe d'apprentissage. A la fin de ce livre, l'utilisateur aura clé en main un système à jour:
 
 * Faire de la recherche en sécurité informatique
 * Développer et concevoir des applications de logiciel libre
@@ -32,11 +33,11 @@ Ce  livre s'adresse à tous les curieux, qui ont entendu parler de *Linux* et vo
 * S'informer et collecter de l'information
 * Protéger son système de l'intrusion, corruption de fichier et au droit à la vie privée
 
-En clair donner les meilleurs outils pour appartenir à une communauté, rendre accessible l'informatique. Commencer par monter son système à la ligne de commande est formateur pour approfondir les concepts, puis les maitriser pour devenir maître de l'ordinateur. On n'apprend pas l'informatique en restant sur une interface graphique, c'est une aide qui occulte tous les principes sous-adjacent. 
+En clair donner les outils pour appartenir à une communauté, rendre accessible l'informatique. Commencer par monter son système à la ligne de commande est formateur pour approfondir les concepts, puis les maitriser pour devenir maître de l'ordinateur. On n'apprend pas l'informatique en restant sur une interface graphique, c'est une aide qui occulte tous les principes sous-adjacent. 
 
 L'idée vient du mot anglais *from scratch* ou une façon de dire à construire soi-même. Peut-être que vous avez eu des rumeurs d'utilisation de bureau ultra-personnalisable sous GNU/Linux mais que vous avez aucune idée comment vous y prendre même si l'idée de customiser le système selon vos besoins vous attire.
 
-Ce livre appartient à la philosophie de la sous-culture libre. Il est donc accessible selon la licence défini. Le logiciel utilisé sous GNU/Linux pour son écriture est Ghostwriter pour l'édition en Markdown. C'est le format de transition facilicitant l'exportation en HTML mais également en PDF ou EPUB. Je recherche à publier une version en ligne via des outils open source tel que Gitbook.Ce livre ce veut intéractif avec des liens internet pour approfondir un sujet ou l'utilisation de référence d'ou le format utilisé. L'utilisation de Git devient un standard dans le milieu informatique que je vais développer. Dans ce sens je veux mettre à disposition mes écrits que cela soit pour la réflexion et la pratique de l'informatique dans la culture libre. C'est un travail qui devrait permettre de convertir de nouveaux aspirants *hacker* selon la tradition depuis les débuts de l'informatique et une philosophie de libre partage de l'information.
+Ce livre appartient à la philosophie de la sous-culture libre de la cyberculture. Il est donc accessible selon la licence défini. Le logiciel utilisé sous GNU/Linux pour son écriture est Ghostwriter pour l'édition en Markdown. C'est le format de transition facilicitant l'exportation en HTML mais également en PDF ou EPUB. Je recherche à publier une version en ligne via des outils open source tel que Gitbook.Ce livre ce veut intéractif avec des liens internet pour approfondir un sujet ou l'utilisation de référence d'ou le format utilisé. L'utilisation de Git devient un standard dans le milieu informatique que je vais développer. Dans ce sens je veux mettre à disposition mes écrits que cela soit pour la réflexion et la pratique de l'informatique dans la culture libre. C'est un travail qui devrait permettre de convertir de nouveaux aspirants *hacker* selon la tradition depuis les débuts de l'informatique et une philosophie de libre partage de l'information.
 
 J'espère bien gagner en influence et réputation pour devenir une référence de formation aux outils de hacking du débutant en informatique. Cela me convient plus que faire de l'argent sur le livre, la connaissance doit être libre d'accès en particulier les outils de création informatique dans l'optique de produire du savoir, ajouter de la valeur et innover pour faire progrèsser la communauté. 
 
@@ -292,11 +293,49 @@ C'est donc l'article 47 de la loi du 7 octobre 2016 qui prévoit que le code de 
 
 La protection des citoyens détecteurs de faille informatique, est donc assurée par cette nouvelle disposition, afin de les inciter à révéler ces failles à l’Agence nationale pour la sécurité des systèmes d’information, sans encourir de risque pénal pour cette action.
 
+## 10. Le matériel
+
+## 11. Xubuntu
+
+## 12. Votre premier programme informatique
+
+## 13. POO "Programmation orienté-objet"
+
+## 14. Lancez-vous dans LPIC
+
 ## 10. Keep it simple, stupid
 
-## 11. La modularité
+Allons, présenter Arch Linux dans cette section qui le système d'exploitation que l'on va manipuler. Un système d'exploitation: OS est un logiciel qui permet la communication entre le matériel de l'ordinateur et les applications. La gestion du matériel est faite par le noyau ou kernel à cela on ajoute une couche graphique ou GUI pour simplifier les tâches avec l'utilisateur.
 
-## 12. Gestion des mots de passe
+Ce qui peu choquer en première approche: il n'y a pas durant l'installation d'Arch Linux d'interface graphique. Tout est fait par la ligne de commande et en réalité c'est le meilleur moyen d'apprendre Linux. Vous n'êtes pas seulement un utilisateur du système d'exploitation, mais vous devenez un administrateur de système. Vous allez acquérir une base solide en informatique comment fonctionne le système d'exploitation.
+
+Ainsi de plus en plus d'utilisateurs de Linux choisissent Arch Linux pour la finesse du paramètrage de la distribution, dans le sens que rien n'est caché à l'utilisateur, il est impossible de mettre du code malveillant dans une installation de base car le code est open source. Pour des personnes qui on un soucis de la vie privée et de la confidentialité, savoir que l'on n'est pas tracké par son outil de travail ou loisir est un facteur important. 
+
+Les hackers choisissent le meilleur matériel pour opérer dans le cyberespace dans le sens qu'ils sont capable de laisser le moindre trace possible de leur action. L'information doit être protégée, si un hacker fait une enquête sur un individu ou une entreprise et collecte de l'information, cela ne doit pas fuiter, ni ces contrats commerciaux pour remonter au client. Même la NSA qui est l'organisme de renseignement le plus intrusive n'à pas à connaitre les activités d'un hacker. Vous devenez un sous-marin dans le cyberespace. Le choix du système d'exploitation devient centrale.
+
+Ce que propose Arch Linux, mais egalement Gentoo est de partir *from scratch* pour monter soit même son système tel un Légo. Vous voulez pouvoir personnaliser la configuration, alors faites-le vous même. Gentoo est très utilisé chez les hackers russes, certain dirait que c'est trop old school, mais compiler soit même les sources est une garantie de garder le contrôle sur l'outil informatique. Après c'est une affaire d'école et de philosophie que de choisir Gentoo ou Arch voir du purisme.Certain ont entendu parler de Kali Linux. Comme la distribution de choix pour les hackers. Ce n'est pas totalement vrai. Même si Linux est le choix de référence pour les hackers car 85% des malwares touchent Windows, il y a des distributions ou l'on peut entièrement démonter et construire son système, et c'est très recherché par les hackers tels que Arch et Gentoo. Un hacker n'est pas seulement savoir utiliser des outils de hacking, il y a une véritable envie d'approfondir la connaissance en informatique en générale.
+
+Nous allons aborder la philosophie KISS "Keep it simple, stupid", une expression empreinté à UNIX dans le jargon de l'informatique signifiant littéralement Faites Simple, Stupide et Restez-le. Dans ce sens Arch Linux emprunte le mot de la simplicité avant toute chose. Ainsi la simplicité selon Arch Linux c'est une conception sans complications (techniques), sans superflu et dont le code reste simple et élégant. 
+
+Jamais Arch Linux ne prendra l'initiative de cacher ou d'interfacer des fonctionnalités ou des possibilités à l'utilisateur. Si un outil doit exister, la philosophie d'Arch Linux est de laisser son développemen aux auteurs du logiciel.
+
+**Concrètement cela ce traduit par:**
+
+* La configuration du système de base ce fait par des fichiers texte. Ceux-ci sont bien documentés et le moins nombreux possible.
+* Le système de paquets ABS/pacman. Pacman est un gestionnaire de paquets simple qui stocke ses informations dans des fichiers et non des bases de données relationnelles. Les paquets sont produits par un simple script shell, makepkg.
+* Les paquets sont réalisés avec un minimum de modifications aux sources fournies par l'auteur dont sa signature PGP est vérifiée: les seules corrections admises concernent les bugs et incompatibilités
+* Le gestionnaire de pacman ne prend pas l'iniative de modifier ou mettre à jour vos fichiers de configuraion.
+
+Apprendre Arch est plus difficile que les autres distributions GNU/Linux, cela peut paraître rude mais l'intérêt pédagogique de connaitre le fonctionnement du système offre des libertés ou l'utilisateur est en connaissance à chaques instant de son système.
+
+Si nous devions définir une tendance Arch Linux appartient à la tendance du DIY (Do It Yourself) par cela traduire "à faire soit même". On fait confiance à l'utilisateur qui doit lui-même prendre des décisions.
+
+Arch est une distribution communautaire. Cela veut dire que aucune entreprise n'est derrière la distribution, c'est un travail pour la plupart du temps bénévole par des développeurs de confiance.
+
+La plupart des dépôts des binaires compilés à partir des sources sont des logiciels libres. Mais on peut trouver quelques logiciels propriétaires comme certain pilotes.
+
+
+## 11. Gestion des mots de passe
 
 Politique de mot de passe.
 Accès BIOS
@@ -304,25 +343,25 @@ Ouvrir la partition chiffrée
 Compte utilisateur et administrateur "root"
 Keepass
 
-## 13. Migration
+## 12. Migration
 
-## 14. Le matériel
+## 13. Le matériel
 
-## 15. Obtenir la dernière version d'Arch Linux
+## 14. Obtenir la dernière version d'Arch Linux
 
-## 16. Booter sur une clé USB
+## 15. Booter sur une clé USB
 
-## 17. Débuter l'installation
+## 16. Débuter l'installation
 
-## 18. Connectez-vous au réseau internet 
+## 17. Connectez-vous au réseau internet 
 
-## 19. Sélectionner la source
+## 18. Sélectionner la source
 
-## 20. Configurer l'horloge
+## 19. Configurer l'horloge
 
-## 21. Partionner le disque
+## 20. Partionner le disque
 
-## 22. Chiffrer le disque
+## 21. Chiffrer le disque
 
 ## APPENDICE I : Utiliser du matériel libre
 ## APPENDICE II : Contribuer à l'open source
